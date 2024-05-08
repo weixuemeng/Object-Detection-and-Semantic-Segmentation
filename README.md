@@ -19,3 +19,7 @@ Each row of the matrix has 4 numbers which represent [𝑦_𝑚𝑖𝑛,𝑥_�
 It is always the case that 𝑥_𝑚𝑎𝑥 – 𝑥_𝑚𝑖𝑛 = 𝑦_𝑚𝑎𝑥 – 𝑦_𝑚𝑖𝑛 = 28. This means that each bounding box has a size of 28×28 no matter how large or small the digit inside that box is.
 ### Segmentation Mask: 
 A 64×64 image with pixel values in the range [0, 10], where 10 represents the background.
+
+## How to run
+- main.py can be run to evaluate the performance of method in terms of the classification accuracy (% of digits classified correctly)
+- submit.py contains the U-net for semantic segmentation. 
