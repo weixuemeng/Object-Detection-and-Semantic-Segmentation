@@ -21,5 +21,6 @@ It is always the case that 𝑥_𝑚𝑎𝑥 – 𝑥_𝑚𝑖𝑛 = 𝑦_𝑚�
 A 64×64 image with pixel values in the range [0, 10], where 10 represents the background.
 
 ## How to run
-- main.py can be run to evaluate the performance of method in terms of the classification accuracy (% of digits classified correctly)
-- submit.py contains the U-net for semantic segmentation. 
+- **main.py** can be run to evaluate the performance of method in terms of the classification accuracy (% of digits classified correctly)
+- **unet.py** train the model and same the checkpoint 
+- **submit.py** contains the U-net for semantic segmentation. 
